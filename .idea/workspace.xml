@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d00f31a-90ab-4cb9-b807-f7ef274ff859" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ParentFormViewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RelationshipCreatableSelectComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegistrationCentral.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationCentral.js" afterDir="false" />
     </list>
@@ -66,7 +68,8 @@
       <workItem from="1590292633303" duration="2483000" />
       <workItem from="1590300982226" duration="6547000" />
       <workItem from="1590330278744" duration="7288000" />
-      <workItem from="1590353927027" duration="7180000" />
+      <workItem from="1590353927027" duration="7294000" />
+      <workItem from="1590367572595" duration="776000" />
     </task>
     <task id="LOCAL-00001" summary="Hooking up form to API and also making sure JSON is generated properly">
       <created>1590348869343</created>
@@ -75,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590348869343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All fields now work with the API, fields need validation next">
+      <created>1590361518784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590361518784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,42 +93,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hooking up form to API and also making sure JSON is generated properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hooking up form to API and also making sure JSON is generated properly" />
+    <MESSAGE value="All fields now work with the API, fields need validation next" />
+    <option name="LAST_COMMIT_MESSAGE" value="All fields now work with the API, fields need validation next" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="631" y="130" key="CommitChangelistDialog2" timestamp="1590348869116">
+    <state x="631" y="130" key="CommitChangelistDialog2" timestamp="1590361518606">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="631" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1590348869116" />
+    <state x="631" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1590361518606" />
     <state x="682" y="430" key="Github.ShareDialog" timestamp="1590301183739">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="682" y="430" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590301183739" />
-    <state width="1659" height="340" key="GridCell.Tab.0.bottom" timestamp="1590360589566">
+    <state width="1659" height="340" key="GridCell.Tab.0.bottom" timestamp="1590361550462">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="340" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590360589566" />
+    <state width="1659" height="340" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590361550462" />
     <state width="1659" height="293" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1590311353646" />
     <state width="409" height="294" key="GridCell.Tab.0.bottom/0.23.1680.942@0.23.1680.942" timestamp="1590272890599" />
     <state width="1659" height="293" key="GridCell.Tab.0.bottom/0.23.1680.951@0.23.1680.951" timestamp="1590345525787" />
-    <state width="1659" height="340" key="GridCell.Tab.0.center" timestamp="1590360589564">
+    <state width="1659" height="340" key="GridCell.Tab.0.center" timestamp="1590361550461">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="340" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590360589564" />
+    <state width="1659" height="340" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590361550461" />
     <state width="1659" height="293" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1590311353646" />
     <state width="409" height="294" key="GridCell.Tab.0.center/0.23.1680.942@0.23.1680.942" timestamp="1590272890598" />
     <state width="1659" height="293" key="GridCell.Tab.0.center/0.23.1680.951@0.23.1680.951" timestamp="1590345525786" />
-    <state width="1659" height="340" key="GridCell.Tab.0.left" timestamp="1590360589563">
+    <state width="1659" height="340" key="GridCell.Tab.0.left" timestamp="1590361550318">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="340" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590360589563" />
+    <state width="1659" height="340" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590361550318" />
     <state width="1659" height="293" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1590311353645" />
     <state width="409" height="294" key="GridCell.Tab.0.left/0.23.1680.942@0.23.1680.942" timestamp="1590272890597" />
     <state width="1659" height="293" key="GridCell.Tab.0.left/0.23.1680.951@0.23.1680.951" timestamp="1590345525785" />
-    <state width="1659" height="340" key="GridCell.Tab.0.right" timestamp="1590360589565">
+    <state width="1659" height="340" key="GridCell.Tab.0.right" timestamp="1590361550462">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="340" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590360589565" />
+    <state width="1659" height="340" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590361550462" />
     <state width="1659" height="293" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1590311353646" />
     <state width="409" height="294" key="GridCell.Tab.0.right/0.23.1680.942@0.23.1680.942" timestamp="1590272890598" />
     <state width="1659" height="293" key="GridCell.Tab.0.right/0.23.1680.951@0.23.1680.951" timestamp="1590345525786" />
@@ -170,10 +181,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="363" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590348890984" />
-    <state x="656" y="266" key="Vcs.Push.Dialog.v2" timestamp="1590348873093">
+    <state x="656" y="266" key="Vcs.Push.Dialog.v2" timestamp="1590361520967">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="656" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590348873093" />
+    <state x="656" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590361520967" />
     <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590300987960">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
